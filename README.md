@@ -1,0 +1,2 @@
+# Taller SQLite Android
+# AndroidRestaurantMapa
