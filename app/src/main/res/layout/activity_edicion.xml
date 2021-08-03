@@ -20,27 +20,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <EditText
         android:id="@+id/edtid"
-        android:layout_width="296dp"
+        android:layout_width="176dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:gravity="center"
         android:hint="Codigo"
         android:inputType="textPersonName"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
         android:id="@+id/edtnombre"
-        android:layout_width="178dp"
+        android:layout_width="176dp"
         android:layout_height="47dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="84dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:hint="Nombre"
@@ -53,10 +53,10 @@
 
     <EditText
         android:id="@+id/edtdepartamento"
-        android:layout_width="171dp"
+        android:layout_width="176dp"
         android:layout_height="46dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="22dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:hint="Departamento"
@@ -64,17 +64,15 @@
         android:paddingVertical="10dp"
         android:paddingLeft="10dp"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/edtnombre"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtnombre" />
 
     <EditText
         android:id="@+id/edtciudad"
         android:layout_width="176dp"
         android:layout_height="44dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:hint="Ciudad"
@@ -87,10 +85,10 @@
 
     <EditText
         android:id="@+id/edDescripcion"
-        android:layout_width="168dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="176dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:hint="Descripcion"
@@ -98,27 +96,22 @@
         android:paddingVertical="10dp"
         android:paddingLeft="10dp"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.774"
-        app:layout_constraintStart_toEndOf="@+id/edtciudad"
-        app:layout_constraintTop_toBottomOf="@+id/edtdepartamento" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtciudad" />
 
     <EditText
         android:id="@+id/edtlatitud2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/custom_input"
         android:ems="10"
-        android:hint="Latitud (ej: 11.14268)"
+        android:hint="Latitud"
         android:inputType="numberSigned|numberDecimal"
         android:paddingVertical="10dp"
         android:paddingLeft="10dp"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edDescripcion" />
 
@@ -126,19 +119,15 @@
         android:id="@+id/edtlongitud2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/custom_input"
         android:ems="10"
-        android:hint="Longitud (ej: -74.11565)"
+        android:hint="Longitud"
         android:inputType="numberSigned|numberDecimal"
         android:paddingVertical="10dp"
         android:paddingLeft="10dp"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtlatitud2" />
 
@@ -146,32 +135,24 @@
         android:id="@+id/btnactualizar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/button_rounded"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/black"
         android:text="ACTUALIZAR"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btneliminar"
         app:layout_constraintTop_toBottomOf="@+id/edtlongitud2" />
 
     <Button
         android:id="@+id/btneliminar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/button_rounded"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/black"
         android:text="ELIMINAR"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnactualizar" />
+        app:layout_constraintTop_toBottomOf="@+id/edtlongitud2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

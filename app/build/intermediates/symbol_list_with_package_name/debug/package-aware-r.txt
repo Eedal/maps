@@ -1102,7 +1102,6 @@ id showCustom
 id showHome
 id showTitle
 id sin
-id space
 id spacer
 id spline
 id split_action_bar
@@ -1136,15 +1135,12 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id textView10
 id textView100
 id textView105
 id textView106
 id textView107
 id textView11
-id textView2
-id textView3
 id textView4
 id textView7
 id textView8
